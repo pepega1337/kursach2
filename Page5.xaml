@@ -1,0 +1,17 @@
+﻿<Page x:Class="kursachlar.Page5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:kursachlar"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page5">
+
+    <Grid>
+        <TextBox Name="teambox"  HorizontalAlignment="Left" Height="23" Margin="195,231,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="393,234,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Введите название команды " HorizontalAlignment="Left" Margin="195,200,0,0" VerticalAlignment="Top" Width="163"/>
+
+    </Grid>
+</Page>
